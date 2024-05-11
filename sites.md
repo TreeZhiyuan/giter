@@ -10,7 +10,10 @@ https://shenhouyun.com/id/2/
 https://pgid.pro/
 
 
-## Clash等科学上网工具
-<a href='https://docs.reiz.link/%e9%99%84%e5%bd%95/clash-advanced-usage/'>Clash高级使用介绍</a>
+## 科学上网工具Clash
+[clash wiki](https://clash.wiki/)
 
-<a href='https://www.cnblogs.com/Blithe-Chiang/p/14506642.html'>全局模式、PAC模式、直连模式的区别</a>
+[Clash高级使用介绍](https://docs.reiz.link/%e9%99%84%e5%bd%95/clash-advanced-usage/)
+
+[全局模式、PAC模式、直连模式的区别](https://www.cnblogs.com/Blithe-Chiang/p/14506642.html)
+
