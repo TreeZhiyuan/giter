@@ -1,4 +1,4 @@
-# giter
+# giter - my git command best practise
 ### 解决中文文件名被编码成\XXX数字的情况：
 ```shell
 git config --global core.quotepath false
