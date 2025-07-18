@@ -25,7 +25,6 @@ git push origin your_local_branch_name:remote_branch_name
 	bsut = "!f() { git branch --set-upstream-to origin/$1; }; f"
 	bu = branch -u 
 	s = status
-	st = status
 	cm = commit
 	cma = commit --amend
 	cmm = commit -m
