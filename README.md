@@ -11,6 +11,20 @@ git push origin HEAD:remote_branch_name
 git push origin your_local_branch_name:remote_branch_name
 ```
 
+### 获取所有远程仓库的最新信息
+```git fetch```
+
+### 获取信息并清理已删除的远程分支
+```
+git fetch --prune
+或简写
+git fetch -p
+```
+### 设置每次 fetch 自动清理已删除的远程分支引用
+```
+git config --global fetch.prune true
+```
+
 ### 我的git快捷键设置
 ```shell
 [alias]
