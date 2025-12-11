@@ -36,7 +36,8 @@ git config --global fetch.prune true
 	brd = branch -D
 	brm = branch -m
 	bra = branch -a
-	bsut = "!f() { git branch --set-upstream-to origin/$1; }; f"
+    bsut = "!f() { git branch $1 --set-upstream-to origin/$2; }; f"
+	sut = "!f() { git branch --set-upstream-to origin/$1; }; f"
 	bu = branch -u 
 	s = status
 	cm = commit
@@ -44,6 +45,7 @@ git config --global fetch.prune true
 	cmm = commit -m
 	ckb = checkout -b
 	ck = checkout
+    ckp = checkout -
 	df = diff
 	dfg = diff --staged
 	rt = restore
@@ -54,7 +56,7 @@ git config --global fetch.prune true
 	plr = pull remote
 	ph = push
 	phf = push -f
-	p2502 = "!f() { git push origin HEAD:ft-202502.00.000-$1; }; f"
+	phh = "!f() { git push origin HEAD:$1; }; f"
 	st = stash
 	stl = stash list
 	std = stash drop
