@@ -25,6 +25,11 @@ git fetch -p
 git config --global fetch.prune true
 ```
 
+### 重新组织本地代码，保持你本地仓库命令执行快速
+```
+git gc --auto
+```
+
 ### 我的git快捷键设置
 ```shell
 [alias]
